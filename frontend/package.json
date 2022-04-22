@@ -3,15 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next start",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next dev",
+    "lint": "next lint",
+    "export": "next build && next export"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.4",
     "next": "12.1.0",
+    "postcss": "^8.4.7",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-icons": "^4.3.1",
+    "tailwindcss": "^3.0.23"
   },
   "devDependencies": {
     "eslint": "8.11.0",
